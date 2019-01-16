@@ -1,0 +1,15 @@
+{
+	"name": "go-bits",
+	"description": "port from go - math/bits",
+	"license": "MIT",
+	"authors": [
+		"DragonUtopia",
+		"Pavel Rid"
+	],
+	"copyright": "Copyright © 2019, DragonUtopia",
+	"targetType": "sourceLibrary",
+	"importPaths": ["source"],
+	"preBuildCommands": [
+		"cd $PACKAGE_DIR/source && rdmd make-tables.d"
+	]
+}
